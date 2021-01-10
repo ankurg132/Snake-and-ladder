@@ -1,7 +1,7 @@
 # Snake-and-ladder
 
 Snakes and Ladder game is a game created using GD script and GODOT game engine which lets the user can enjoy snakes and ladder game
-where you need to select to click on dice amd start the game and then user name is shown which rolling dice currently  
+where you need to click on dice aNd start the game and then user name is shown in the bottom who is  rolling dice currently  
 now this is only for two users but we will update it further then many users can enjoy it .
 
 ### MOVING
