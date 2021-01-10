@@ -23,6 +23,6 @@ the player slide down a chute, which takes him farther from the finish.
 
 After end of the game user have two choice either RESTART or QUIT .
 
-##    PLAY THE GAME AND ENJOY IT!!!
+##    PLAY THE GAME AND ENJOY IT !!!
 
 
