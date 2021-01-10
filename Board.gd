@@ -11,10 +11,10 @@ var DiceFace = 0
 var localPos = [29.707,833.983]
 var countp1 = -1
 var countp2 = -1
-var snakeStart = [26]
-var snakeEnd = [5]
-var ladderStart = [2]
-var ladderEnd = [24]
+var snakeStart = [26,95,92,98,74,69,31,37]
+var snakeEnd = [5,75,70,36,53,49,7,22]
+var ladderStart = [2,61,72,33,27]
+var ladderEnd = [24,83,86,64,89]
 onready var pathFinder = [$Path2D/Blue/Sprite,$Path2D/Red/Sprite]
 
 # Called when the node enters the scene tree for the first time.
@@ -41,7 +41,7 @@ func _on_Button_pressed():
 			pathpos = $Path2D.get_curve().get_point_position(countp2)
 			pathpos.x -= localPos[0]
 			pathpos.y -= localPos[1]
-			pathpos.y += 15
+			pathpos.y += 5
 			pathFinder[1].position = pathpos
 		else:
 			countp2 += DiceFace
@@ -49,7 +49,7 @@ func _on_Button_pressed():
 			pathpos = $Path2D.get_curve().get_point_position(countp2)
 			pathpos.x -= localPos[0]
 			pathpos.y -= localPos[1]
-			pathpos.y += 15
+			pathpos.y += 5
 			pathFinder[1].position = pathpos
 		checkwin(countp2)
 	else:
